@@ -37,28 +37,13 @@ Remove um item do inventário informando seu nome.
   - `string.h` - Manipulação de strings
   - `stdlib.h` - Funções utilitárias
 
-## 📁 Estrutura do Código
-inventario.c
-├── Struct Item
-│ ├── nome[30]
-│ ├── tipo[20]
-│ └── quantidade
-├── Protótipo Funções
-│ ├── inserirItem() - Cadastra novo item
-│ ├── listarItens() - Mostra todos os itens
-│ ├── buscarItem() - Busca item por nome
-│ ├── removerItem() - Remove item do inventário
-| └── exibirMenu()
-└── main()
-└── Menu interativo
-
 
 ## 🚀 Como Executar
 
 ### Compilação
 ```bash
 gcc -o inventario inventario.c
-
+```
 
 ### Executa
 ./inventario
