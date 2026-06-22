@@ -102,9 +102,3 @@ Comparar empiricamente o comportamento de vetores e listas encadeadas nas opera�
 - ✅ Tamanho do inventário imprevisível
 - ✅ Memória limitada (uso dinâmico)
 - ✅ Inserção/remoção no início da lista
-
-## 🎮 Como Executar
-
-### Compilação
-```bash
-gcc -o inventario inventario.c -lm
